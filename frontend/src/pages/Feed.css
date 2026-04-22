@@ -1,0 +1,43 @@
+/* src/pages/Feed.css */
+
+.post-card {
+  margin-bottom: 25px;
+}
+
+.post-header {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-body {
+  padding: 15px;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.post-actions {
+  padding: 12px 15px;
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #eee;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  color: #1877f2;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.post-actions button:hover {
+  text-decoration: underline;
+}
