@@ -1,4 +1,13 @@
 {
+  "name": "image-share-backend",
+  "version": "1.0.0",
+  "description": "Backend for Image Share App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.9.0",
